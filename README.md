@@ -184,3 +184,4 @@ in the `ObjectStatus` control we defined our alias `Formatter` that holds our fo
 [Require Modules in XML View and Fragment](https://sdk.openui5.org/topic/b11d853a8e784db6b2d210ef57b0f7d7.html "Modules can be required in XML views and fragments and assigned to aliases which can be used as variables in properties, event handlers, and bindings.")
 
 [API Reference: `sap.ui.base.ManagedObject.PropertyBindingInfo`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject.PropertyBindingInfo#overview)
+# ui5-typescript-walkthrough
