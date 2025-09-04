@@ -7,7 +7,7 @@ import JSONModel from "sap/ui/model/json/JSONModel";
 export default class Component extends UIComponent {
     public static metadata = {
         "interfaces": ["sap.ui.core.IAsyncContentCreation"],
-        "manifest": "json" 
+        "manifest": "json"
     };
     init(): void {
         // call the init function of the parent
@@ -21,5 +21,8 @@ export default class Component extends UIComponent {
         };
         const model = new JSONModel(data);
         this.setModel(model);
+
+        // create the views based on the url/hash
+        this.getRouter().initialize();
     };
 };

@@ -4,6 +4,7 @@ import { SearchField$SearchEvent } from "sap/m/SearchField";
 import Filter from "sap/ui/model/Filter";
 import FilterOperator from "sap/ui/model/FilterOperator";
 import ListBinding from "sap/ui/model/ListBinding";
+import UIComponent from "sap/ui/core/UIComponent";
 
 
 /**
@@ -29,5 +30,9 @@ export default class App extends Controller {
         const binding = list?.getBinding("items") as ListBinding;
         binding?.filter(filter);
     }
+    onPress(): void {
+        const router = UIComponent.getRouterFor(this);
+        router.navTo("detail");
+    }    
 
 };
