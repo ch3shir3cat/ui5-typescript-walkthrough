@@ -1,7 +1,6 @@
 import MockServer from "sap/ui/core/util/MockServer";
-				
-export default {
 
+export default {
     init: function () {
         // create
         const mockServer = new MockServer({

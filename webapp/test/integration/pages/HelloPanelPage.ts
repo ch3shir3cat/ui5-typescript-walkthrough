@@ -13,7 +13,7 @@ export default class HelloPanelPage extends Opa5 {
 			errorMessage: "Did not find the 'Say Hello With Dialog' button on the HelloPanel view"
 		});
 	}
-	
+
 	// Assertions
 	iShouldSeeTheHelloDialog() {
 		return this.waitFor({

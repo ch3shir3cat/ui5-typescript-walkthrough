@@ -13,13 +13,13 @@ opaTest("Should open the Hello dialog", function () {
 			name: "ui5.walkthrough"
 		}
 	});
-	
+
 	// Actions
 	onTheHelloPanelPage.iPressTheSayHelloWithDialogButton();
-	
+
 	// Assertions
 	onTheHelloPanelPage.iShouldSeeTheHelloDialog();
-	
+
 	// Cleanup
 	onTheHelloPanelPage.iTeardownMyApp();
 });
